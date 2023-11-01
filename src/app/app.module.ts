@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { D5nDirective } from './directives/d5n.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    D5nDirective
   ],
   imports: [
     BrowserModule,
